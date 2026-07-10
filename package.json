@@ -53,5 +53,9 @@
       "type": "paypal",
       "url": "https://www.paypal.me/ebaauw/EUR"
     }
-  ]
+  ],
+  "devDependencies": {
+    "jsdoc": "^4.0.5",
+    "standard": "^17.1.2"
+  }
 }
