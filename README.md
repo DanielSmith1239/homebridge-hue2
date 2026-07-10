@@ -24,5 +24,7 @@ If you have a question, please post a message to the **#hue** channel of the Hom
 ### Introduction
 This [Homebridge](https://github.com/homebridge/homebridge) plugin exposes to Apple's [HomeKit](http://www.apple.com/ios/home/) ZigBee devices (lights, plugs, sensors, switches, ...) connected to a 2nd-generation (square) [Hue](http://www2.meethue.com/) bridge by Signify.
 
+Hue room and zone scenes are exposed as HomeKit switches.  Dynamic-capable Hue scenes are exposed with an additional _Dynamic_ switch to start the Hue scene animation from HomeKit.
+
 Note that Hue was originally developed by Philips, before they split off their Lighting division into Signify.
 Signify are still using the Philips Hue brand name.
